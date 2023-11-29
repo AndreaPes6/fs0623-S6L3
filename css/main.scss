@@ -1,0 +1,130 @@
+@import "reset";
+@import "font";
+@import "animation";
+@import "color";
+@import "layout";
+@import "aside";
+
+* {
+    font-family: $fontFamily;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: $violet;
+    padding: 2rem;
+
+    p {
+        font-size: 2rem;
+        font-weight: bolder;
+        margin-left: 3rem;
+    }
+
+    ul {
+        font-size: 1.2rem;
+        display: flex;
+        flex-direction: row;
+        margin-right: 3rem;
+
+        a {
+            text-decoration: none;
+            color: $white;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+    }
+}
+
+
+
+main {
+    background-color: $violet;
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+    margin-bottom: 20rem;
+
+    #contenitore1 {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+
+        h1 {
+            color: violet;
+            font-size: 7rem;
+            font-weight: bolder;
+            padding: 2rem 0rem;
+            width: 50%;
+        }
+
+        p {
+            color: $white;
+            font-size: 3rem;
+            width: 50%;
+        }
+
+        div {
+            padding: 2rem;
+
+            #bottone1 {
+                padding: 1.2rem;
+                margin: 2rem;
+                font-size: 1.2rem;
+                font-family: $fontFamily;
+                background-color: $blue;
+                color: $white;
+                border: none;
+                &:hover {
+                    padding: 1.1rem;
+                }
+            }
+
+            #bottone2 {
+                padding: 1.2rem;
+                margin: 2rem;
+                font-size: 1.2rem;
+                font-family: $fontFamily;
+                background-color: $orange;
+                color: $white;
+                border: none;
+                &:hover {
+                    padding: 1.1rem;
+                }
+            }
+
+            #bottone3 {
+                padding: 1.2rem;
+                margin: 2rem;
+                font-size: 1.2rem;
+                font-family: $fontFamily;
+                background-color: $green;
+                color: $white;
+                border: none;
+                &:hover {
+                    padding: 1.1rem;
+                }
+            }
+        }
+    }
+
+    img {
+        position: absolute;
+        width: 35rem;
+        border: $white solid;
+        border-radius: 20px;
+        margin-top: 1rem;
+        margin-left: 70rem;
+    }
+}
+
+aside {
+    margin: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+
+    img {
+        width: 20rem;
+        border-radius: 20px;
+    }
+}

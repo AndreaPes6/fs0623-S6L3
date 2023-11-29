@@ -1,0 +1,159 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #640fc5;
+  padding: 2rem;
+}
+header p {
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-left: 3rem;
+}
+header ul {
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: row;
+  margin-right: 3rem;
+}
+header ul a {
+  text-decoration: none;
+  color: white;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+main {
+  background-color: #640fc5;
+  display: flex;
+  flex-direction: row;
+  padding: 3rem;
+  margin-bottom: 20rem;
+}
+main #contenitore1 {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+main #contenitore1 h1 {
+  color: violet;
+  font-size: 7rem;
+  font-weight: bolder;
+  padding: 2rem 0rem;
+  width: 50%;
+}
+main #contenitore1 p {
+  color: white;
+  font-size: 3rem;
+  width: 50%;
+}
+main #contenitore1 div {
+  padding: 2rem;
+}
+main #contenitore1 div #bottone1 {
+  padding: 1.2rem;
+  margin: 2rem;
+  font-size: 1.2rem;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #0e6cff;
+  color: white;
+  border: none;
+}
+main #contenitore1 div #bottone1:hover {
+  padding: 1.1rem;
+}
+main #contenitore1 div #bottone2 {
+  padding: 1.2rem;
+  margin: 2rem;
+  font-size: 1.2rem;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #ff8700;
+  color: white;
+  border: none;
+}
+main #contenitore1 div #bottone2:hover {
+  padding: 1.1rem;
+}
+main #contenitore1 div #bottone3 {
+  padding: 1.2rem;
+  margin: 2rem;
+  font-size: 1.2rem;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+}
+main #contenitore1 div #bottone3:hover {
+  padding: 1.1rem;
+}
+main img {
+  position: absolute;
+  width: 35rem;
+  border: white solid;
+  border-radius: 20px;
+  margin-top: 1rem;
+  margin-left: 70rem;
+}
+
+aside {
+  margin: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+aside img {
+  width: 20rem;
+  border-radius: 20px;
+}/*# sourceMappingURL=main.css.map */
